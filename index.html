@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Classroom</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top navigation bar -->
+    <header>
+        <div class="header-left">
+            <button class="menu-btn" id="menuBtn">
+                <span class="material-icons">menu</span>
+            </button>
+            <div class="logo">
+                <img src="https://www.gstatic.com/classroom/logo_square_rounded.svg" alt="Classroom Logo">
+                <span>Classroom > Google Class Room Clone</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="material-icons">apps</span>
+            <div class="profile">
+                <img src="https://via.placeholder.com/32" alt="Profile" class="profile-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main layout -->
+    <main>
+        <!-- Sidebar navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-item active">
+                <span class="material-icons">home</span>
+                <span>Home</span>
+            </div>
+            <div class="sidebar-item">
+                <span class="material-icons">calendar_today</span>
+                <span>Calendar</span>
+            </div>
+            <div class="sidebar-item">
+                <span class="material-icons">description</span>
+                <span>Resources</span>
+            </div>
+            <div class="sidebar-divider"></div>
+            <div class="sidebar-item">
+                <span class="material-icons">school</span>
+                <span>Teaching</span>
+            </div>
+            <div class="sidebar-item">
+                <span class="material-icons">rate_review</span>
+                <span>To Review</span>
+            </div>
+            <div class="sidebar-divider"></div>
+            <div class="sidebar-classes">
+            </div>
+        </aside>
+
+        <!-- Main content area -->
+        <section class="content">
+
+            <!-- Navigation tabs -->
+            <div class="course-tabs">
+                <div class="tab">Stream</div>
+                <div class="tab-indicator"></div>
+            </div>
+
+            <!-- Class banner -->
+            <div class="course-banner">
+                <div class="banner-content">
+                    <h2>Pemrograman WEB</h2>
+                </div>
+                <div class="banner-decoration">
+                    <div class="medal"></div>
+                    <div class="diploma"></div>
+                </div>
+                <button class="customize-btn">
+                    <span class="material-icons">edit</span>
+                    Customize
+                </button>
+                <span class="material-icons info-icon">info</span>
+            </div>
+
+            <!-- Content split into two columns -->
+            <div class="content-columns">
+                <!-- Left panel -->
+                <div class="left-column">
+                    <div class="card">
+                        <h3>Quick Links</h3>
+                        <button class="add-link-btn">
+                            <span class="material-icons">add</span>
+                            Add Link
+                        </button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">
+                                <img src="https://www.gstatic.com/meet/meet_logo_2020q4_192px_clr_1x_web.png" alt="Meet" class="meet-icon">
+                                <span>Meet</span>
+                            </div>
+                            <span class="material-icons">more_vert</span>
+                        </div>
+                        <button class="generate-link-btn">Generate Link</button>
+                    </div>
+
+                    <div class="card">
+                        <h3>Upcoming</h3>
+                        <p class="no-work">Nothing due soon</p>
+                    </div>
+                </div>
+
+                <!-- Right panel -->
+                <div class="right-column">
+                    <div class="card announcement-card">
+                        <div class="card-header">
+                            <img src="https://via.placeholder.com/40" alt="Profile" class="profile-img">
+                            <div class="announce-text">Share something with your class</div>
+                        </div>
+                        <span class="material-icons share-icon">share</span>
+                    </div>
+
+                    <div class="card assignment-card">
+                        <div class="card-header">
+                            <div class="assignment-icon">
+                                <span class="material-icons">assignment</span>
+                            </div>
+                            <div class="assignment-content">
+                                <div class="assignment-title">
+                                    <span>Muhammad Rafif Zharif</span>
+                                </div>
+                                <div class="assignment-date">Mar 25 (Edited Mar 25)</div>
+                            </div>
+                            <span class="material-icons">more_vert</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
